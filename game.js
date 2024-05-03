@@ -93,7 +93,7 @@ modulus.onclick = () => {
     }
 }
 function gameOver(){
-    window.location.href = `/gameover.html?score=${score}`
+    window.location.href = `./gameover.html?score=${score}`
 }
 
 console.log(score);  
